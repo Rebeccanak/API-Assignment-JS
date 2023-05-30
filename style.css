@@ -191,3 +191,52 @@ footer {
     text-align: center;
     
 }
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart-button {
+    /* background-color: rgb(184, 47, 47); */
+    /* border: none; */
+    cursor: pointer;
+    margin-top: 2%;
+    font-size: 20px ;
+    margin-left:-2%;
+    padding-top: 15px;
+    padding-bottom:20px ;
+    padding-right: 100px;
+    padding-left: 20px;
+  }
+  .search-button{
+    cursor: pointer;
+    margin-top: 1%;
+    font-size: 20px ;
+    padding-top: 15px;
+    padding-bottom:20px ;
+    padding-bottom:20px ;
+    padding-right: 770px;
+    padding-left: 20px;
+  }
+  .cart-button i, .search-button i {
+    color: rgb(30, 26, 26);
+  }
+  form{
+    display: flex;
+  justify-content:space-evenly;
+  background-color: rgb(212, 222, 222);
+  width: 100%;
+  padding-bottom: 100px;
+  }
+  input{
+    padding-left: 170px;
+    margin-top: 6%;
+   background-color: yellow;
+  }
+  #call{
+   margin-top: 6%;
+  }
+  #sub{
+    margin-top: 6%;
+  }
+  
