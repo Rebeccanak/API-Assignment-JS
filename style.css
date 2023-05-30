@@ -1,0 +1,193 @@
+
+
+
+.links{
+    border: solid;
+    color: rgb(248, 243, 243);
+    background-color: rgb(20, 16, 16);
+}
+
+.links nav ul li{
+    display: contents;
+    justify-content: center;
+
+    
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
+}
+ li a{
+    text-decoration: none;
+    margin-left: 100px;
+    color: aliceblue;
+    /* color: rgb(240, 234, 234); */
+  }
+span{
+    color:#f0a10e;
+}
+#button{
+    padding: 15px 20px;
+    background-color: #f0a10e;
+}
+#logo{
+    width: 50px;
+    margin-left: 80px;
+    margin-top: 2%;
+}
+#cat{
+    margin-left: 13%;
+    margin-top: -2.5%;
+    font-size: 25px;
+}
+#search{
+    margin-left: 34%;
+   margin-top: -10%;
+}
+#imageblue{
+    width: 1300px;
+    height: 550px;
+    min-height: 50%;
+    margin-left: 70px;
+}
+#trust{
+    margin-top: -34%;
+    margin-left: 90px;
+    font-size: 60px;
+    font-family: sans-serif;
+}  
+#trusted{
+    font-size: 17px;
+    margin-left: 90px;
+    margin-top: -20px;
+}
+#but1{
+    margin-left: 100px;
+    margin-top: 120px;
+    padding: 24px 50px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+#but2{
+    margin-left: 100px;
+    margin-top: 120px;
+    padding: 24px 50px;
+    border-radius: 10px;
+    color:white;
+    border-color: aliceblue ;
+    background-color: rgba(4, 187, 187, 0.404);
+}
+.accessory #ace, #lap,#tv, #phon{
+    width: 100px;
+    margin-top: 80px;
+    margin: 100px;
+    border: solid;
+    box-sizing: 20px;
+    
+}
+.flexing{
+    display: flex;
+    padding: 40px;
+}
+#one,#two,#three,#four,#five,#six{
+    border: solid;
+    padding: 60px;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+#five{
+    color: white;
+    background-color: black;
+}
+#camera, #beats{
+    width: 800px;
+    margin: 20px;
+    padding: 10px;
+    margin-left: 35px;
+}
+#camera{
+    width: 450px;
+    padding: 10px;
+   
+}
+#beats{
+    width: 800px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 29px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-div {
+  width: 20%;
+  margin-bottom: 20px;
+}
+.footer-div h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.footer-div p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.get {
+  color:yellow;
+}
+#game{
+    width: 1300px;
+    height: 550px;
+    min-height: 50%;
+    margin-left: 70px;
+}
+.move{
+    text-align: center;
+    color: purple;
+}
+.testimonial p{
+    color: black;
+    margin-left: 150px;
+    font-size: 30px;
+    margin-bottom: -10%;
+    
+    
+}
+ .cuty #cute{
+    width: 20%;
+    border-radius: 40px;
+    margin-left:60%;
+    margin-top: -12%;
+}
+.icons{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .icons button{
+    padding: 20px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    margin-left: 0px;
+  }
+  .icons .ion{
+    font-size: 5em;
+    
+  }
+  #Products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+
+}
+.product{
+    border: solid rgb(13, 113, 180);
+    border-radius: 10px;
+    margin-bottom: 2%;
+    text-align: center;
+    
+}
