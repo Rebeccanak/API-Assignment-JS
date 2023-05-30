@@ -1,47 +1,28 @@
+function fetchProducts() {
+    fetch("https://dummyjson.com/products")
+      .then((response) => response.json())
+      .then((information) => {
+        const returnedProduct = information.products.slice(1, 8);
+        generateProductCards(returnedProduct);
+      });
+  }
 
-
-
-let productContainer = document.getElementById('Products')
-
-const getProducts = ()=>{
-    return fetch('https://dummyjson.com/products')
-    .then(response =>response.json())
-    .then(response =>response)
-    .catch(error =>error.message)
-}
- getProducts();
-
-const displayProducts = async() =>{
-    const products = await getProducts();
-    console.log(products.products);
-    products.products.map(item=>{
-        let div = document.createElement('div');
-        div.className ='product'
-        
-
-        let img=document.createElement('img');
-        let title=document.createElement('h2');
-        let description=document.createElement('P');
-        let price=document.createElement('h3')
-        let itemName=document.createElement('p')
-        
+function generateProductCards(information) {
+    const productContainer = document.getElementById("Products");
+    for (const product of information) {
+      const lists = document.createElement("div");
+      lists.classList.add("product-card");
+      lists.innerHTML = `
+        <img src="${product.thumbnail}" alt="${product.name}" />
+        <h2>${product.title}</h2>
+        <div class='productPrice'>
+          <p>${product.price}</p>
        
-         
-   
-        img.src = item.images;
-        title.innerHTML=item.title;
-        description.innerHTML=item.description;
-        price.innerHTML=item.price;
-        div.appendChild(img);
-        div.appendChild(title);
-        div.appendChild(description);
-        
-        productContainer.appendChild(div);
-
-
-    })
-    
-
- }
- displayProducts();
+        </div>
+      `;
+      productContainer.appendChild(lists);
+    }
+  }
+  
+  fetchProducts();
 
